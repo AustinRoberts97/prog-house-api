@@ -57,6 +57,6 @@ app.put('/vote', async (req, res) => {
 })
 // ... your REST API routes will go here
 
-app.listen(3000, () =>
-  console.log('REST API server ready at: http://localhost:3000'),
+app.listen(8080, () =>
+  console.log('REST API server ready at: http://localhost:8080'),
 )
